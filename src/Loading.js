@@ -7,7 +7,7 @@ const LoadingContainer = styled.div`
     height: 40px;
     background-color: #333;
 
-    margin: 100px auto;
+    margin: 25% auto;
     -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
     animation: sk-rotateplane 1.2s infinite ease-in-out;
   }

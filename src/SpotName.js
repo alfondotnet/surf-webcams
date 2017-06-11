@@ -2,9 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  font-family: Verdana;
-  letter-spacing: -0.08em;
-  font-size: 50px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
   position: absolute;
   top: 5%;
   left: 5%;
@@ -13,6 +12,6 @@ const Container = styled.div`
 
 export default function Spot ({ name }) {
   return (<Container>
-    {name}
+    Webcam: {name}
   </Container>);
 }
